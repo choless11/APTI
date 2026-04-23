@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#fff4ec"/>
+  <circle cx="1038" cy="120" r="188" fill="#ffcf7e" opacity=".6"/>
+  <circle cx="204" cy="758" r="220" fill="#ffd4a9" opacity=".45"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fffaf7" stroke="#563320" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#926644" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#23160f" font-size="110" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">鹅骑士</text>
+  <text x="96" y="320" fill="#98755a" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Goose Knight</text>
+  <text x="936" y="190" font-size="128">⚔️</text>
+  <circle cx="825" cy="532" r="210" fill="#ffe8bc"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🪿</text>
+  <text x="95" y="720" fill="#946744" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">热血  ·  立场  ·  正面冲锋</text>
+</svg>

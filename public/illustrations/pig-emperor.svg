@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#fff1e6"/>
+  <circle cx="1038" cy="118" r="190" fill="#ffd15b" opacity=".75"/>
+  <circle cx="206" cy="760" r="220" fill="#ffb3c9" opacity=".4"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fffaf7" stroke="#4b2516" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#9a6f3d" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#27120b" font-size="118" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">猪皇帝</text>
+  <text x="96" y="320" fill="#9d7757" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Pig Emperor</text>
+  <text x="928" y="190" font-size="138">👑</text>
+  <circle cx="825" cy="532" r="210" fill="#ffe3b2"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🐷</text>
+  <text x="95" y="720" fill="#9b6d3e" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">气场  ·  主导  ·  戏剧性</text>
+</svg>

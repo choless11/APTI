@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#fff2e8"/>
+  <circle cx="1026" cy="120" r="184" fill="#ffba63" opacity=".58"/>
+  <circle cx="214" cy="758" r="224" fill="#ff9bb1" opacity=".33"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fffaf7" stroke="#593120" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#9c633e" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#28150d" font-size="110" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">公鸡宣讲官</text>
+  <text x="96" y="320" fill="#9d6e53" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Rooster Spokesperson</text>
+  <text x="936" y="190" font-size="128">📣</text>
+  <circle cx="825" cy="532" r="210" fill="#ffe4b8"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🐓</text>
+  <text x="95" y="720" fill="#98613b" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">号召力  ·  立场  ·  节奏感</text>
+</svg>

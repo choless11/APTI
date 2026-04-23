@@ -1,0 +1,161 @@
+.page {
+  padding: 36px 0 64px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
+  gap: 24px;
+  align-items: stretch;
+}
+
+.leftColumn {
+  display: grid;
+  gap: 24px;
+  padding: 28px 0;
+}
+
+.highlight {
+  display: inline-block;
+  margin-left: 8px;
+  color: #c05d2c;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.scaleBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.heroCard {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  align-content: space-between;
+  min-height: 420px;
+  padding: 26px;
+  background:
+    radial-gradient(circle at top right, rgba(255, 201, 74, 0.55), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 241, 228, 0.95));
+}
+
+.heroCard::after {
+  content: "";
+  position: absolute;
+  inset: auto -40px -40px auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 32px;
+  transform: rotate(14deg);
+  background: rgba(242, 111, 168, 0.15);
+}
+
+.heroSticker {
+  font-size: clamp(90px, 12vw, 140px);
+  line-height: 1;
+  justify-self: start;
+}
+
+.heroMeta h2 {
+  margin: 10px 0 8px;
+  font-size: clamp(34px, 5vw, 56px);
+  line-height: 0.98;
+}
+
+.heroMeta p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.heroEyebrow {
+  display: inline-flex;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ribbon {
+  position: relative;
+  z-index: 1;
+  justify-self: start;
+  padding: 12px 16px;
+  border-radius: 18px;
+  background: #1d1b19;
+  color: #fff9f2;
+  font-size: 14px;
+}
+
+.gridSection {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.panel {
+  display: grid;
+  gap: 18px;
+  padding: 26px;
+}
+
+.panel h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.panel p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.colorGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.colorItem {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--line);
+}
+
+.colorKey {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.featureList {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.featureList li {
+  line-height: 1.6;
+}
+
+.footnote {
+  font-size: 14px;
+}
+
+@media (max-width: 960px) {
+  .hero,
+  .gridSection {
+    grid-template-columns: 1fr;
+  }
+}

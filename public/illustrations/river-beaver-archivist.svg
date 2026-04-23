@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#f7efe1"/>
+  <circle cx="1020" cy="110" r="180" fill="#ffd979" opacity=".7"/>
+  <circle cx="180" cy="760" r="210" fill="#d9efe3" opacity=".65"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fffaf4" stroke="#35251b" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#725946" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#241b16" font-size="110" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">河狸档案官</text>
+  <text x="96" y="320" fill="#8a6e5e" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">River Beaver Archivist</text>
+  <text x="930" y="190" font-size="128">🗂️</text>
+  <circle cx="825" cy="532" r="210" fill="#ffe6ae"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🦫</text>
+  <text x="95" y="720" fill="#71594a" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">稳  ·  清晰  ·  可信赖</text>
+</svg>

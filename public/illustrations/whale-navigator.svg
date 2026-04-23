@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#eef6ff"/>
+  <circle cx="1032" cy="120" r="186" fill="#8ebfff" opacity=".44"/>
+  <circle cx="212" cy="758" r="220" fill="#bfe6d6" opacity=".34"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fcfdff" stroke="#25516f" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#6887a1" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#131f2a" font-size="104" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">鲸鱼导航员</text>
+  <text x="96" y="320" fill="#788ba0" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Whale Navigator</text>
+  <text x="936" y="190" font-size="128">🗺️</text>
+  <circle cx="825" cy="532" r="210" fill="#d4e8ff"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🐋</text>
+  <text x="95" y="720" fill="#6688a4" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">方向感  ·  深度  ·  长期性</text>
+</svg>

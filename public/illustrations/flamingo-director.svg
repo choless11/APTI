@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#fff0f6"/>
+  <circle cx="1030" cy="128" r="180" fill="#ff9ed4" opacity=".6"/>
+  <circle cx="195" cy="752" r="220" fill="#ffd76a" opacity=".42"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fffafb" stroke="#5d1c42" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#a14f7e" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#26131e" font-size="110" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">火烈鸟导演</text>
+  <text x="96" y="320" fill="#a2698d" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Flamingo Director</text>
+  <text x="936" y="190" font-size="128">🎬</text>
+  <circle cx="825" cy="532" r="210" fill="#ffd2ef"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🦩</text>
+  <text x="95" y="720" fill="#954f7a" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">感染力  ·  热度  ·  现场感</text>
+</svg>

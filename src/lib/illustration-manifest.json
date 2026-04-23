@@ -1,0 +1,29 @@
+{
+  "format": "webp",
+  "basePath": "/illustrations/ai",
+  "availableAiIllustrations": [],
+  "batches": [
+    {
+      "id": "batch-1",
+      "label": "第一批角色海报",
+      "slugs": [
+        "pig-emperor",
+        "raven-chief-strategist",
+        "cat-inventor",
+        "flamingo-director",
+        "capybara-gardener"
+      ]
+    },
+    {
+      "id": "batch-2",
+      "label": "第二批角色海报",
+      "slugs": [
+        "panther-operator",
+        "dolphin-architect",
+        "squirrel-lead-singer",
+        "elephant-homeroom-teacher",
+        "corgi-travel-poet"
+      ]
+    }
+  ]
+}

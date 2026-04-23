@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#eef9f5"/>
+  <circle cx="1034" cy="122" r="186" fill="#7fd8c2" opacity=".48"/>
+  <circle cx="210" cy="758" r="220" fill="#ffd9aa" opacity=".38"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fbfffd" stroke="#27564a" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#6b9388" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#15211e" font-size="102" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">变色龙实验导演</text>
+  <text x="96" y="320" fill="#7a948c" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Chameleon Experimenter</text>
+  <text x="936" y="190" font-size="128">🧪</text>
+  <circle cx="825" cy="532" r="210" fill="#d8f5eb"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🦎</text>
+  <text x="95" y="720" fill="#6b9085" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">脑洞  ·  试验  ·  适应力</text>
+</svg>

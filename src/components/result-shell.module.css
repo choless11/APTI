@@ -1,0 +1,209 @@
+.page {
+  padding: 36px 0 68px;
+}
+
+.headerRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin: 16px 0 10px;
+  font-size: clamp(40px, 6vw, 74px);
+  line-height: 0.96;
+}
+
+.tagline {
+  margin: 0;
+  max-width: 820px;
+  color: var(--muted);
+  line-height: 1.75;
+  font-size: 18px;
+}
+
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.heroGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+  gap: 24px;
+}
+
+.posterCard {
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.posterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.posterFallback {
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  min-height: 420px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 201, 74, 0.34), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 238, 222, 0.94));
+}
+
+.posterFallback span {
+  font-size: 110px;
+}
+
+.posterFallback strong {
+  font-size: 30px;
+}
+
+.posterFallback small {
+  font-size: 64px;
+}
+
+.summaryCard {
+  display: grid;
+  gap: 18px;
+  align-content: start;
+  padding: 24px;
+}
+
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.summaryLead {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.summaryBody {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.summaryPanels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.summaryPanels h3 {
+  margin: 0 0 10px;
+}
+
+.summaryPanels ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.tipBox {
+  display: grid;
+  gap: 8px;
+  padding: 18px;
+  border-radius: 22px;
+  background: rgba(119, 196, 166, 0.14);
+  border: 1px solid rgba(119, 196, 166, 0.32);
+}
+
+.tipBox span,
+.tipBox p {
+  margin: 0;
+}
+
+.tipBox span {
+  font-size: 13px;
+  color: #23684d;
+  font-weight: 700;
+}
+
+.tipBox p {
+  line-height: 1.75;
+}
+
+.bottomGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.panel {
+  display: grid;
+  gap: 18px;
+  padding: 24px;
+}
+
+.panel h2 {
+  margin: 0;
+}
+
+.matchList {
+  display: grid;
+  gap: 14px;
+}
+
+.matchItem {
+  display: grid;
+  gap: 4px;
+  padding: 16px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid var(--line);
+}
+
+.matchItem span {
+  color: var(--muted);
+}
+
+.resultLink {
+  color: #326fb5;
+  font-weight: 700;
+}
+
+.emptyState {
+  display: grid;
+  gap: 18px;
+  justify-items: start;
+  padding: 28px;
+  margin-top: 40px;
+}
+
+.emptyState h1,
+.emptyState p {
+  margin: 0;
+}
+
+.emptyState p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 980px) {
+  .headerRow,
+  .heroGrid,
+  .bottomGrid,
+  .summaryPanels {
+    grid-template-columns: 1fr;
+  }
+
+  .headerRow {
+    display: grid;
+  }
+}

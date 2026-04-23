@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#f2f3f5"/>
+  <circle cx="1036" cy="120" r="184" fill="#a5afb8" opacity=".58"/>
+  <circle cx="212" cy="760" r="220" fill="#ffd0a0" opacity=".34"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fdfdfd" stroke="#26303a" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#6c7781" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#161c22" font-size="110" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">犀牛执法官</text>
+  <text x="96" y="320" fill="#77818b" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Rhino Inspector</text>
+  <text x="936" y="190" font-size="128">🚨</text>
+  <circle cx="825" cy="532" r="210" fill="#e1e5ea"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🦏</text>
+  <text x="95" y="720" fill="#6d7780" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">硬度  ·  纪律  ·  底线</text>
+</svg>

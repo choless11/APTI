@@ -1,0 +1,57 @@
+.list {
+  display: grid;
+  gap: 14px;
+}
+
+.item {
+  display: grid;
+  gap: 8px;
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.value {
+  color: var(--muted);
+}
+
+.track {
+  overflow: hidden;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(29, 27, 25, 0.08);
+}
+
+.fill {
+  height: 100%;
+  border-radius: inherit;
+}
+
+.white {
+  background: linear-gradient(90deg, #fff7c0, #ffcf53);
+}
+
+.blue {
+  background: linear-gradient(90deg, #7dd6ff, #4e87ff);
+}
+
+.black {
+  background: linear-gradient(90deg, #6b717b, #1f2630);
+}
+
+.red {
+  background: linear-gradient(90deg, #ff9aa2, #f24c6b);
+}
+
+.green {
+  background: linear-gradient(90deg, #8ce0b0, #2bb673);
+}

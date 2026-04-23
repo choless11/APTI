@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#edf1f8"/>
+  <circle cx="1032" cy="120" r="184" fill="#8ea0c9" opacity=".48"/>
+  <circle cx="216" cy="760" r="222" fill="#ffd79d" opacity=".42"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fdfefe" stroke="#1f2b3b" stroke-opacity=".14"/>
+  <text x="94" y="130" fill="#73809b" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#111820" font-size="104" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">乌鸦参谋长</text>
+  <text x="96" y="320" fill="#7b8699" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Raven Chief Strategist</text>
+  <text x="936" y="190" font-size="128">♟️</text>
+  <circle cx="825" cy="532" r="210" fill="#dde2f2"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🐦</text>
+  <text x="95" y="720" fill="#6e7d97" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">布局  ·  预判  ·  节点控制</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#fff5ed"/>
+  <circle cx="1034" cy="120" r="188" fill="#ffcb80" opacity=".52"/>
+  <circle cx="208" cy="760" r="220" fill="#b9ecd7" opacity=".28"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fffaf7" stroke="#5d3926" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#9b7451" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#2b170e" font-size="94" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">柯基旅行诗人</text>
+  <text x="96" y="320" fill="#9f7a62" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Corgi Travel Poet</text>
+  <text x="936" y="190" font-size="128">🎒</text>
+  <circle cx="825" cy="532" r="210" fill="#ffe5bf"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🐶</text>
+  <text x="95" y="720" fill="#98724f" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">热情  ·  人味  ·  自由感</text>
+</svg>

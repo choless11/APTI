@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#eef5f0"/>
+  <circle cx="1034" cy="120" r="184" fill="#9dd7b7" opacity=".46"/>
+  <circle cx="208" cy="760" r="220" fill="#b4c2ff" opacity=".28"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="#fcfffd" stroke="#27352d" stroke-opacity=".12"/>
+  <text x="94" y="130" fill="#708779" font-size="42" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">APTI ANIMAL ROLE</text>
+  <text x="94" y="250" fill="#152018" font-size="110" font-weight="700" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">狼群主理人</text>
+  <text x="96" y="320" fill="#788a7d" font-size="38" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">Wolf Producer</text>
+  <text x="936" y="190" font-size="128">🏕️</text>
+  <circle cx="825" cy="532" r="210" fill="#ddf1e4"/>
+  <text x="825" y="610" text-anchor="middle" font-size="250">🐺</text>
+  <text x="95" y="720" fill="#708679" font-size="34" font-family="'Trebuchet MS','Microsoft YaHei',sans-serif">带人  ·  搭班子  ·  扩张感</text>
+</svg>
