@@ -51,7 +51,7 @@ export function ResultShell() {
       <section className={styles.headerRow}>
         <div>
           <div className="pill">
-            SoulTrace 原型：{result.archetypeName} / 主导气味：{getDominantColorLabels(result.distribution)}
+            原型：{result.archetypeName} / 主导气味：{getDominantColorLabels(result.distribution)}
           </div>
           <h1 className={styles.title}>{result.title}</h1>
           <p className={styles.tagline}>{result.tagline}</p>
@@ -140,14 +140,14 @@ export function ResultShell() {
               </div>
             ))}
           </div>
-          <a
+          {/* <a
             className={styles.resultLink}
             href={result.resultUrl}
             rel="noreferrer"
             target="_blank"
           >
             查看 SoulTrace 原始结果页
-          </a>
+          </a> */}
         </div>
       </section>
     </main>

@@ -24,13 +24,13 @@ export function HomeHero() {
     <main className={`${styles.page} fade-up`}>
       <section className={`${styles.hero} page-shell`}>
         <div className={styles.leftColumn}>
-          <div className="pill">APTI × SoulTrace × 动物职业人格</div>
+          <div className="pill">APTI × 动物职业人格</div>
           <h1 className="section-title">
             测出你在 APTI 世界里的
             <span className={styles.highlight}>动物职业人格</span>
           </h1>
           <p className="section-copy">
-            这是一个把 SoulTrace 问卷重新包装成中文情景人格问答的体验。你将回答
+            你将回答
             24 道带一点戏剧感的生活情景题，最后得到一个搞怪但有点准的身份名片，例如
             <strong> 猪皇帝 </strong>
             或其他 24 种动物+职业角色。
@@ -70,9 +70,6 @@ export function HomeHero() {
       <section className={`${styles.gridSection} page-shell`}>
         <div className={`${styles.panel} glass-card`}>
           <h3>五色底层驱动力</h3>
-          <p>
-            APTI 保留 SoulTrace 的五色分布，只是把它们改造成更离谱、更像森林职场剧的角色设定。
-          </p>
           <div className={styles.colorGrid}>
             {COLOR_BLURBS.map((item) => (
               <div className={styles.colorItem} key={item.key}>

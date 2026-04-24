@@ -2,7 +2,13 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { startTransition, useEffect, useState, useTransition } from "react";
+import {
+  startTransition,
+  useEffect,
+  useRef,
+  useState,
+  useTransition,
+} from "react";
 import {
   clearStoredAssessmentState,
   persistQuestionState,
@@ -51,6 +57,8 @@ async function answerAssessmentRequest(
 
 export function AssessmentShell() {
   const router = useRouter();
+  const questionAnchorRef = useRef<HTMLDivElement | null>(null);
+  const pendingScrollQuestionIdRef = useRef<number | null>(null);
   const [state, setState] = useState<AssessmentState>({
     phase: "loading",
     answers: [],
@@ -108,6 +116,28 @@ export function AssessmentShell() {
     };
   }, []);
 
+  useEffect(() => {
+    if (state.phase !== "question") {
+      return;
+    }
+
+    if (pendingScrollQuestionIdRef.current !== state.question.id) {
+      return;
+    }
+
+    pendingScrollQuestionIdRef.current = null;
+
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    questionAnchorRef.current?.scrollIntoView({
+      behavior: prefersReducedMotion ? "auto" : "smooth",
+      block: "start",
+    });
+    questionAnchorRef.current?.focus({ preventScroll: true });
+  }, [state]);
+
   const handleRestart = () => {
     clearStoredAssessmentState();
     window.location.assign("/assessment");
@@ -139,6 +169,7 @@ export function AssessmentShell() {
             };
 
             // 问卷恢复能力依赖本地缓存，因此每次答题后都立刻同步。
+            pendingScrollQuestionIdRef.current = payload.question.id;
             persistQuestionState(nextState);
             setState(nextState);
             setSelectedScore(null);
@@ -216,7 +247,11 @@ export function AssessmentShell() {
             <div className={styles.progressFill} style={{ width: `${progressRatio}%` }} />
           </div>
 
-          <div className={styles.questionWrap}>
+          <div
+            className={styles.questionWrap}
+            ref={questionAnchorRef}
+            tabIndex={-1}
+          >
             <span className={styles.questionTag}>
               {state.question.localizationMode === "curated"
                 ? "情景题面"
