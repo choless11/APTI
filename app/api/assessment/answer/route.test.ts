@@ -58,12 +58,20 @@ describe("POST /api/assessment/answer", () => {
     const response = await POST(request);
     const payload = (await response.json()) as {
       status: string;
-      result: { title: string };
+      result: {
+        title: string;
+        topMatches: Array<{ key: string; aptiTitle: string }>;
+      };
     };
 
     expect(response.status).toBe(200);
     expect(payload.status).toBe("complete");
     expect(payload.result.title).toBe("猪皇帝");
+    expect(payload.result.topMatches).toHaveLength(3);
+    expect(payload.result.topMatches.map((match) => match.key)).not.toContain(
+      "black-red",
+    );
+    expect(payload.result.topMatches.every((match) => match.aptiTitle)).toBe(true);
   });
 
   it("returns localized question while the assessment is still in progress", async () => {

@@ -2,6 +2,7 @@ import {
   ensureAllArchetypesAreMapped,
   getAptiDefinition,
   resolveAptiResult,
+  resolveNeighborMatches,
 } from "@/src/lib/apti-results";
 import type { SoultraceCompleteResponse } from "@/src/types/soultrace";
 
@@ -53,6 +54,38 @@ describe("apti result mapping", () => {
 
     expect(result.title).toBe("猪皇帝");
     expect(result.imagePath).toBe("/illustrations/pig-emperor.svg");
-    expect(result.topMatches[1].aptiTitle).toBe("狮子总攻官");
+    expect(result.topMatches).toHaveLength(3);
+    expect(result.topMatches.map((match) => match.key)).not.toContain("black-red");
+    expect(result.topMatches[0].aptiTitle).toBe("狮子总攻官");
+    expect(result.topMatches.every((match) => match.aptiTitle)).toBe(true);
+  });
+
+  it("fills neighbor matches after excluding the current archetype", () => {
+    const neighbors = resolveNeighborMatches(
+      "black-red",
+      {
+        white: 0.1,
+        blue: 0.15,
+        black: 0.34,
+        red: 0.31,
+        green: 0.1,
+      },
+      [
+        { key: "black-red", name: "Vanguard", alignmentScore: 91.2 },
+        { key: "red-black", name: "Conqueror", alignmentScore: 86.4 },
+      ],
+    );
+
+    expect(neighbors).toHaveLength(3);
+    expect(neighbors.map((match) => match.key)).toEqual([
+      "red-black",
+      "black",
+      "red",
+    ]);
+    expect(neighbors.map((match) => match.aptiTitle)).toEqual([
+      "狮子总攻官",
+      "猎豹老板",
+      "火烈鸟导演",
+    ]);
   });
 });

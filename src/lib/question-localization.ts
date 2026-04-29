@@ -139,7 +139,7 @@ const CURATED_QUESTION_ENTRIES: CuratedQuestionEntry[] = [
   },
   {
     id: 40,
-    text: "我喜欢做一些没什么实际目的、纯粹图开心的事",
+    text: "你喜欢做一些没什么实际目的、纯粹图开心的事",
   },
   {
     id: 42,

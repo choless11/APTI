@@ -7,7 +7,10 @@ import {
   clearStoredAssessmentState,
   readStoredResult,
 } from "@/src/lib/assessment-storage";
-import { getDominantColorLabels } from "@/src/lib/apti-results";
+import {
+  getDominantColorLabels,
+  resolveNeighborMatches,
+} from "@/src/lib/apti-results";
 import { getIllustrationAsset } from "@/src/lib/illustration-assets";
 import type { AptiResult } from "@/src/types/soultrace";
 import { DistributionBars } from "@/src/components/distribution-bars";
@@ -45,6 +48,11 @@ export function ResultShell() {
   }
 
   const illustration = getIllustrationAsset(result.aptiSlug);
+  const neighborMatches = resolveNeighborMatches(
+    result.archetypeKey,
+    result.distribution,
+    result.topMatches,
+  );
 
   return (
     <main className={`${styles.page} page-shell fade-up`}>
@@ -131,7 +139,7 @@ export function ResultShell() {
         <div className={`${styles.panel} glass-card`}>
           <h2>隔壁棚最像你的三位邻居</h2>
           <div className={styles.matchList}>
-            {result.topMatches.map((match) => (
+            {neighborMatches.map((match) => (
               <div className={styles.matchItem} key={match.key}>
                 <strong>{match.aptiTitle}</strong>
                 <span>
